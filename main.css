@@ -23,15 +23,23 @@ body{
     margin: 20px 0 32px 0;
 }
 .b{
-margin-top: 32px;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 5px; 
+    padding: 10px;
+
 }
 .card{
-    display: inline-block;
+    /* display: inline-block; */
     width: 16%;
     border: 1px solid #ccc;
     border-radius: 20px;
     box-shadow: 5px 5px 2px rgba(0,0,0,0.05);
     text-align: center;
+    
+   
 }
 .id{
     color: #333;
